@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TakionAdditionalColumns.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ColumnFunctions.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>SourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TakionAdditionalColumns.h">
+      <Filter>SourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>SourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ObserverApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UtilsApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionDataApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionGui.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionLogApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionMemoryApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionUtilsApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UtilsGuiApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConnectionApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TakionAdditionalColumnsVersion.h">
+      <Filter>SourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionVersionBase.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{08696a18-5769-4e4f-9306-35b8f0eec132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TakionApi">
+      <UniqueIdentifier>{7cafc822-f66a-42de-9997-a3d9558ae08b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TakionAdditionalColumns.rc">
+      <Filter>SourceFiles</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TakionAdditionalColumns.def">
+      <Filter>SourceFiles</Filter>
+    </None>
+    <None Include="TakionAdditionalColumns.rc2">
+      <Filter>SourceFiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>

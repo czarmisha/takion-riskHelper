@@ -1,0 +1,7 @@
+# *
+# !Extension/ExtensionSample/
+# !riskHelper.ecg
+
+ExtensionOutput/
+Extension/.vs
+riskHelper.dll

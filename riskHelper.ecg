@@ -1,0 +1,16 @@
+1.0.7.83
+1.0.7.29
+07-17-2023
+OPTION
+1|0|0
+Account|34506001
+H|344
+Tab|RiskHelper
+WorkDirectoryPath|C:\Users\user\Desktop\riskHelper\
+SecurityBlackListFilename|blacklist.txt
+FixerConditionsFilename|fixerConditions.csv
+ListsUpdateFrequency|900000
+UpdateFrequency|1000
+W|648
+X|666
+Y|211

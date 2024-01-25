@@ -1,0 +1,71 @@
+; ExtensionSample.def : Declares the module parameters for the DLL.
+
+LIBRARY
+
+EXPORTS
+ExtensionInitialize				@3
+ExtensionTerminate				@4
+GetExtensionVersion				@5
+GetUtilsVersion					@6
+GetUtilsHeaderVersion			@7
+GetTakionUtilsVersion			@8
+GetTakionUtilsHeaderVersion		@9
+GetTakionGuiVersion				@10
+GetTakionGuiHeaderVersion		@11
+GetTakionDataVersion			@12
+GetTakionDataHeaderVersion		@13
+GetTakionLogVersion				@14
+GetTakionLogHeaderVersion		@15
+GetObserverVersion				@16
+GetObserverHeaderVersion		@17
+GetTakionExtensionDescription	@18
+GetTakionExtensionProductName	@19
+
+IsTraderIdValid					@41
+
+GetMsAdditionalColumnCount		@42
+GetMsColumnInfo					@43
+CreateMsRowValue				@44
+CreateMsTotalRowValue			@45
+IsMsColumnPosition				@46
+ApplyMsPosition					@47
+InvalidateMsPositionColumns		@48
+InvalidateMsPositionTotals		@49
+UpdateMsPositionValues			@50
+AdjustMsPositionTotals			@51
+GetMsCellColor					@52
+
+AdditionalMsLock				@53
+AdditionalMsLockWait			@54
+AdditionalMsUnlock				@55
+
+MsUpdateNonCumulativeRowValue	@56
+MsAddNonCumulativeRowValue		@57
+MsRemoveNonCumulativeRowValue	@58
+
+GetPosAdditionalColumnCount		@70
+GetPosColumnInfo				@71
+CreatePosRowValue				@72
+CreatePosTotalRowValue			@73
+GetPosCellColor					@74
+PosUpdateNonCumulativeRowValue	@75
+PosAddNonCumulativeRowValue		@76
+PosRemoveNonCumulativeRowValue	@77
+
+GetActAdditionalColumnCount		@110
+GetActColumnInfo				@111
+CreateActRowValue				@112
+CreateActTotalRowValue			@113
+GetActCellColor					@114
+ActUpdateNonCumulativeRowValue	@115
+ActAddNonCumulativeRowValue		@116
+ActRemoveNonCumulativeRowValue	@117
+
+GetOrdAdditionalColumnCount		@170
+GetOrdColumnInfo				@171
+CreateOrdRowValue				@172
+CreateOrdTotalRowValue			@173
+GetOrdCellColor					@174
+OrdUpdateNonCumulativeRowValue	@175
+OrdAddNonCumulativeRowValue		@176
+OrdRemoveNonCumulativeRowValue	@177
